@@ -1,13 +1,16 @@
-/* File: matrix_dynamic.h */
+/* File: matrix_dynamiclib.h */
 #ifndef MATRIXh
 #define MATRIXh
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-//changed format to appropriate datatype (int)
+/* can modify the datatype by commenting/uncommenting from 8.3lf to d */
+/* must also modify the typedef variable along with FORMAT */
+//#define FORMAT "%8.3lf"
 #define FORMAT "%d "
 
-//changed typedef datatype from double to int
+/* The code to modify typedef is here */
+//typedef double T;
 typedef int T;
 
 typedef struct {

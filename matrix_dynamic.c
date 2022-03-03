@@ -58,7 +58,7 @@ void destroy(matrix m)
     free(m.element[i]);
   }
   free(m.element);
-}
+} /* this function has been modified */
 
 T retrieve(int row, int col, matrix m)
 {
@@ -153,7 +153,7 @@ void equate(matrix* m1, matrix* m2)
   }
 }
 
-//matrix transpose function added, matrix parameter
+//matrix transpose function added
 matrix transpose(matrix m){
 	int i,j;
 	matrix result;

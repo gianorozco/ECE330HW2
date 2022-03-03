@@ -133,7 +133,7 @@ void equate(matrix* m1, matrix* m2)
       m2->element[i][j] = m1->element[i][j];
 }
 
-//added matrix transpose function, needs to have some parameter for matrix dimensions
+//added matrix transpose function
 matrix transpose(matrix m){
 	int i,j;
 	matrix result;

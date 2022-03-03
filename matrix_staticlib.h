@@ -1,16 +1,21 @@
-/* File: matrix_static.h */
+/* File: matrix_staticlib.h */
 #ifndef MATRIXh
 #define MATRIXh
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-//modified format from 8.3lf to d
-#define FORMAT "%2d"
+/* can modify the datatype by commenting/uncommenting FORMAT from 8.3lf to 8d */
+/* must also modify the typedef variable along with FORMAT */
+
+#define FORMAT "%8.3lf"
+//#define FORMAT "%d"
+
 #define MAX_ROW 10
 #define MAX_COL 10
 
-//modified typdef from double to int
-typedef int T;
+/* The code to modify typedef is here */
+typedef double T;
+//typedef int T;
 
 typedef struct {
   int  row_dim, col_dim;

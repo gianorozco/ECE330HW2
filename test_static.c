@@ -19,4 +19,3 @@ int main()
   matrix_print(transpose(a));
   matrix_print(transpose(b));
 }
-//needs code to call the transpose function
