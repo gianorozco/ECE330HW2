@@ -2,7 +2,7 @@ all: test_dynamic.o matrix_dynamic.o
 	gcc test_dynamic.o matrix_dynamic.o -o run_dynamic
 test_dynamic.o: test_dynamic.c matrix_dynamiclib.h
 	gcc -c test_dynamic.c
-matrix_dyamic.o: matrix_dynamic.c matrix_dynamiclib.h
+matrix_dynamic.o: matrix_dynamic.c matrix_dynamiclib.h
 	gcc -c matrix_dynamic.c
 clean:
 	rm *.o
