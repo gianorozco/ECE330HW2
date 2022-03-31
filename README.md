@@ -18,3 +18,4 @@
 
 --You need to use the the make clean commands prior to compiling and executing the programs, if they've been altered (for datatype checking)--
 	values may differ otherwise
+Edit: The clean commands are no longer necessary as the makefiles have been updated (apparently there was a typo)
