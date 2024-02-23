@@ -18,4 +18,5 @@ int main()
   printf("\n transpose of a and b");
   matrix_print(transpose(a));
   matrix_print(transpose(b));
+  //leaving this here
 }
